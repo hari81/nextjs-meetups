@@ -8,7 +8,7 @@ function Home(props) {
     <Fragment>
       <Head>
         <meta name="description" content="Used nextjs to build" />
-        <title>React Meetup's page</title>
+        <title>React Meetups page</title>
       </Head>
       <MeetupList meetups={props.meetups} />
     </Fragment>

@@ -12,8 +12,8 @@ function NewMeetupPage() {
         "Content-Type": "application/json",
       },
     });
-    const data = await resposne.json();
-    console.log(data);
+    // const data = await resposne.json();
+    // console.log(data);
     router.push("/");
   }
   return <NewMeetupForm onAddMeetup={addMeetupHandler} />;
